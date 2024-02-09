@@ -99,7 +99,7 @@ const Hero: React.FunctionComponent<HeroProps> = () => {
               to everyone.
             </p>
             <div className="resumeContainer">
-              <a className="resume" href="/Resume.pdf" target="_blank">
+              <a className="resume" href="/myResume.pdf" target="_blank">
                 <p className="viewCv">
                   <span>View my resumé</span>
                   <span className="arrowIcon">
