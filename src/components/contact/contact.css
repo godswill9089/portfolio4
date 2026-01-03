@@ -1,0 +1,360 @@
+.contactwrapper,
+.contactwrapperDark {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 60px 90px 60px;
+  position: relative;
+  background-image: url("https://res.cloudinary.com/dt9pwfpi5/image/upload/v1700223294/Vector-bg_ijfifv.png");
+}
+.contactwrapper p,
+.contactwrapperDark p {
+  text-align: center;
+  color: #101828;
+  font-family: Outfit;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.35781rem;
+  margin-bottom: 3rem;
+}
+.contactwrapper .mg-0,
+.contactwrapperDark .mg-0 {
+  margin-bottom: 0;
+}
+.contactwrapper button.contact,
+.contactwrapperDark button.contact {
+  background: #135fdc;
+  color: #fff;
+  cursor: pointer;
+  padding: 14px 40px;
+  border-radius: 28px;
+  border: 2px solid #135fdc;
+  margin-bottom: 70px;
+}
+.contactwrapper .purple,
+.contactwrapper .green,
+.contactwrapper .gold,
+.contactwrapper .pink,
+.contactwrapperDark .purple,
+.contactwrapperDark .green,
+.contactwrapperDark .gold,
+.contactwrapperDark .pink {
+  position: absolute;
+}
+.contactwrapper .purple,
+.contactwrapperDark .purple {
+  top: 60px;
+  left: 250px;
+}
+.contactwrapper .green,
+.contactwrapperDark .green {
+  top: 60px;
+  right: 250px;
+}
+.contactwrapper .gold,
+.contactwrapperDark .gold {
+  top: 200px;
+  left: 500px;
+}
+.contactwrapper .pink,
+.contactwrapperDark .pink {
+  top: 200px;
+  right: 500px;
+}
+
+.contactwrapperDark {
+  background-color: #061122;
+  background-image: url("https://res.cloudinary.com/dt9pwfpi5/image/upload/v1702285932/three_ehzwtb.png");
+}
+.contactwrapperDark p {
+  color: #fff;
+}
+
+.cardCWrapper,
+.cardCWrapperDark {
+  border-radius: 0.75rem;
+  border: 0.5px solid rgba(242, 242, 242, 0.5);
+  background: #fff;
+  text-align: center;
+  width: 20.125rem;
+  height: 16.8125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  box-shadow: 4px 4px 12px 0px rgba(214, 229, 241, 0.25);
+}
+.cardCWrapper p.appName,
+.cardCWrapperDark p.appName {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1.125rem;
+  font-weight: 500;
+  letter-spacing: -0.01913rem;
+}
+.cardCWrapper p.details a,
+.cardCWrapperDark p.details a {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 2.2885rem;
+  letter-spacing: -0.01488rem;
+  text-decoration-line: underline;
+}
+
+.cardCWrapperDark {
+  background-color: #121d30;
+  border: 0;
+  box-shadow: 4px 4px 12px 0px #061122;
+}
+.cardCWrapperDark p.appName {
+  color: #fff;
+}
+.cardCWrapperDark p.details a {
+  color: #bdbdbd;
+}
+
+.flexMeans,
+.flexMeansDark {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  padding: 11rem;
+  background: #fcfeff;
+}
+
+.flexMeansDark {
+  background-color: #061122;
+}
+
+@media (min-width: 1024px) and (max-width: 1420px) {
+  .contactwrapper .purple,
+  .contactwrapperDark .purple {
+    left: 150px;
+  }
+  .contactwrapper .green,
+  .contactwrapperDark .green {
+    right: 150px;
+  }
+  .contactwrapper .gold,
+  .contactwrapperDark .gold {
+    left: 300px;
+  }
+  .contactwrapper .pink,
+  .contactwrapperDark .pink {
+    right: 300px;
+  }
+  .flexMeans,
+  .flexMeansDark {
+    padding: 4rem;
+    align-items: center;
+  }
+  .cardCWrapper,
+  .cardCWrapperDark {
+    width: 30rem;
+  }
+}
+@media (min-width: 821px) and (max-width: 1023px) {
+  .contactwrapper .purple,
+  .contactwrapperDark .purple {
+    left: 50px;
+  }
+  .contactwrapper .green,
+  .contactwrapperDark .green {
+    right: 50px;
+  }
+  .contactwrapper .gold,
+  .contactwrapperDark .gold {
+    left: 190px;
+  }
+  .contactwrapper .pink,
+  .contactwrapperDark .pink {
+    right: 190px;
+  }
+  .flexMeans,
+  .flexMeansDark {
+    flex-direction: column;
+    padding: 4rem;
+    align-items: center;
+  }
+  .cardCWrapper,
+  .cardCWrapperDark {
+    width: 30rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 820px) {
+  .contactwrapper .purple svg,
+  .contactwrapper .green svg,
+  .contactwrapper .gold svg,
+  .contactwrapper .pink svg,
+  .contactwrapperDark .purple svg,
+  .contactwrapperDark .green svg,
+  .contactwrapperDark .gold svg,
+  .contactwrapperDark .pink svg {
+    height: 35px;
+  }
+  .contactwrapper p,
+  .contactwrapperDark p {
+    font-size: 3rem;
+  }
+  .contactwrapper .purple,
+  .contactwrapperDark .purple {
+    top: 35px;
+    left: 40px;
+  }
+  .contactwrapper .green,
+  .contactwrapperDark .green {
+    top: 20px;
+    right: 40px;
+  }
+  .contactwrapper .gold,
+  .contactwrapperDark .gold {
+    top: 260px;
+    left: 90px;
+  }
+  .contactwrapper .pink,
+  .contactwrapperDark .pink {
+    top: 260px;
+    right: 80px;
+  }
+  .flexMeans,
+  .flexMeansDark {
+    flex-direction: column;
+    padding: 4rem;
+    align-items: center;
+  }
+  .cardCWrapper,
+  .cardCWrapperDark {
+    width: 30rem;
+  }
+}
+@media (max-width: 510px) {
+  .contactwrapper,
+  .contactwrapperDark {
+    padding: 50px;
+  }
+  .contactwrapper p,
+  .contactwrapperDark p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .contactwrapper .purple svg,
+  .contactwrapper .green svg,
+  .contactwrapper .gold svg,
+  .contactwrapper .pink svg,
+  .contactwrapperDark .purple svg,
+  .contactwrapperDark .green svg,
+  .contactwrapperDark .gold svg,
+  .contactwrapperDark .pink svg {
+    height: 25px;
+  }
+  .contactwrapper .purple,
+  .contactwrapperDark .purple {
+    top: 35px;
+    left: 10px;
+  }
+  .contactwrapper .green,
+  .contactwrapperDark .green {
+    top: 20px;
+    right: 20px;
+  }
+  .contactwrapper .gold,
+  .contactwrapperDark .gold {
+    top: 220px;
+    left: 40px;
+  }
+  .contactwrapper .pink,
+  .contactwrapperDark .pink {
+    top: 150px;
+    right: 30px;
+  }
+  .flexMeans,
+  .flexMeansDark {
+    flex-direction: column;
+    padding: 3rem 1.31rem;
+    align-items: center;
+  }
+  .cardCWrapper,
+  .cardCWrapperDark {
+    width: 18rem;
+  }
+}
+@media (max-width: 350px) {
+  .contactwrapper,
+  .contactwrapperDark {
+    padding: 50px;
+  }
+  .contactwrapper p,
+  .contactwrapperDark p {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .contactwrapper .purple,
+  .contactwrapperDark .purple {
+    top: 30px;
+    left: 10px;
+  }
+  .contactwrapper .green,
+  .contactwrapperDark .green {
+    top: 20px;
+    right: 20px;
+  }
+  .contactwrapper .gold,
+  .contactwrapperDark .gold {
+    top: 220px;
+    left: 30px;
+  }
+  .contactwrapper .pink,
+  .contactwrapperDark .pink {
+    top: 150px;
+    right: 30px;
+  }
+  .flexMeans,
+  .flexMeansDark {
+    flex-direction: column;
+    padding: 3rem 1.31rem;
+    align-items: center;
+  }
+  .cardCWrapper,
+  .cardCWrapperDark {
+    width: 16rem;
+  }
+}
+@media (max-width: 290px) {
+  .contactwrapper,
+  .contactwrapperDark {
+    padding: 40px;
+  }
+  .contactwrapper p,
+  .contactwrapperDark p {
+    font-size: 1.6rem;
+  }
+  .contactwrapper .purple,
+  .contactwrapperDark .purple {
+    top: 10px;
+    left: 10px;
+  }
+  .contactwrapper .green,
+  .contactwrapperDark .green {
+    top: 10px;
+    right: 20px;
+  }
+  .contactwrapper .gold,
+  .contactwrapperDark .gold {
+    top: 220px;
+    left: 10px;
+  }
+  .contactwrapper .pink,
+  .contactwrapperDark .pink {
+    top: 150px;
+    right: 10px;
+  }
+  .cardCWrapper,
+  .cardCWrapperDark {
+    width: 15rem;
+  }
+}/*# sourceMappingURL=contact.css.map */

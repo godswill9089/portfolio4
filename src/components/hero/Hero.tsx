@@ -5,7 +5,7 @@ import Particles from "react-particles";
 import { loadSlim } from "tsparticles-slim";
 import { ThemeContext } from "../../App";
 import { RightArrowIcon } from "../../assets/icons/icons";
-import boy from "../../assets/boy4.png";
+import boy from "../../assets/Screenshot 2026-01-02 at 14.17.33.png";
 
 interface HeroProps {}
 
