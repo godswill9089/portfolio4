@@ -241,9 +241,10 @@
     .heroWrapper {
       flex-direction: column;
       width: 100%;
-      padding: 1.69rem 1.31rem 6rem 1.31rem;
+      gap: 1rem;
+      padding: 1.69rem 1.31rem 2rem 1.31rem;
       .leftHero {
-        margin-top: 25px;
+        margin-top: 0px;
         p.hello {
           font-size: 1.2rem;
           line-height: 2.625rem;
@@ -258,15 +259,16 @@
           line-height: 1.75rem;
           color: #101828;
           width: unset;
-          margin: 0.5rem 0 2rem 0;
+          margin: 0.5rem 0 0.5rem 0;
         }
         p.viewCv {
           font-size: 1.125rem;
+          margin-bottom: 2rem;
         }
       }
       .rightHero {
         img {
-          margin-top: 3rem;
+          margin-top: 0rem;
           height: 300px;
         }
       }
